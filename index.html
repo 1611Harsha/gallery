@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surana Alummni Association</title>
+    <link rel="icon" href="G:\college project\images\logo_alumni2.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--! header start -->
+    
+    <header>
+       
+        <a href="#" class="logo">
+            <img src="G:\college project\images\logo.png" alt="" width="100px" height="100px">
+        </a>
+        
+        <ul class="navlist">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="W:\github\Second_Project_Alumini_page\Second_Project(Alumini)\index.html">ALUMNI</a></li>
+            <li><a href="#">NEWSROOM</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">EVENTS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+        
+        <a href="#" class="logo">
+        <img src="G:\college project\images\logo_alumni2.png" width="100px" height="100px">
+        </a>
+       
+        <div class="nav-content">
+            <a href="#"><i class="bi bi-search" >Search</i></a>
+            <a href="#"><i class="bi bi-person">Login / Register</i></a>
+        </div>
+    </header>
+    <br><br>
+    <!--! header ends -->
+    <!--! gallery start -->
+    <section class="gallery">
+        <ul class="images">
+            <li class="card">
+                <div class="details">
+                    <div class="photographer">
+                
+                    </div>
+                 
+                </div>
+            </li>
+            <li class="card"><img src="W:\github\gallary\images\Surana3.jpg" alt="img"></li>
+            <li class="card"><img src="W:\github\gallary\images\i14.jpeg" alt="img"></li>
+            <li class="card"><img src="W:\github\gallary\images\img6.jpg" alt="img"></li>
+            <li class="card"><img src="W:\github\gallary\images\i6.jpeg" alt="img"></li>
+            <li class="card"><img src="W:\github\gallary\images\i7.jpeg" alt="img"></li>
+            <li class="card"><img src="W:\github\gallary\images\i10.jpeg" alt="img"></li>
+            <li class="card"><img src="W:\github\gallary\images\i11.jpg" alt="img"></li>
+            <li class="card"><img src="W:\github\gallary\images\i4.jpeg" alt="img"></li>
+            <li class="card"><img src="W:\github\gallary\images\i13.jpg" alt="img"></li>
+            <li class="card"><img src="W:\github\gallary\images\img3.jpg" alt="img"></li>
+            <li class="card"><img src="W:\github\gallary\images\img1.jpg" alt="img"></li>
+            <li class="card"><img src="W:\github\gallary\images\img2.jpg" alt="img"></li>
+            <li class="card"><img src="W:\github\gallary\images\img4.jpg" alt="img"></li>
+            <li class="card"><img src="W:\github\gallary\images\southend.jpg" alt="img"></li>
+        </ul>
+    </section>
+    <!--! header ends -->
+    <!--! header end -->
+<!--! photo section start -->
+
+   
+<!--! photo section ends-->
+    
+    <!--! footer start -->
+    <section class="footer">
+        <div class="footer-box">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="">
+            </a>
+            <h5>We believe it has the power to do <br>amazing things.</h5>
+            <div class="icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-dribbble"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Useful Link</h3>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of use</a></li>
+            <li><a href="#">Site Map</a></li>
+            <li><a href="#">Expert Testimony</a></li>
+        </div>
+        <div class="footer-box">
+            <h3>Our Services</h3>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Track My Account Status</a></li>
+            <li><a href="#">My Account</a></li>
+        </div>
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <li><a href="#">Work Time</a></li>
+            <li><a href="#">Monday - Friday</a></li>
+        </div>
+    </section>
+    
+    <!--! footer end -->
+
+    <!--! copyright start -->
+    <div class="copyright">
+        <p> Copyright 2024 © Surana College Autonomous. All right reserved. Powered by Surana College.</p>
+    </div>
+
+    <a href="#" class="scroll-btn"><i class="bi bi-arrow-bar-up"></i></a>
+    
+    <!--! copyright end -->
+
+    <!--!image slide in home page start script-->
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 3000 );    
+        }
+        </script>
+        <!--!image slide in home page ends script-->
+    <script src="script.js"></script>
+</body>
+
+</html>
